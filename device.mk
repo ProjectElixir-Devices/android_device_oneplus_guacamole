@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    CarrierConfigResCommon
     
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
