@@ -315,6 +315,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+    
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.1-service.oneplus_msmnile
