@@ -190,3 +190,6 @@ ro.soc.model=SM8150
 
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
+
+# Subsystem silent restart
+persist.vendor.ssr.restart_level=ALL_ENABLE
