@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.oneplus"
-#define LOG_VERBOSE "android.hardware.biometrics.fingerprint@2.3-service.oneplus"
+#define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.oplus"
+#define LOG_VERBOSE "android.hardware.biometrics.fingerprint@2.3-service.oplus"
 
 #include <hardware/hw_auth_token.h>
 

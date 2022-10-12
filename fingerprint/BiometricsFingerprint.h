@@ -26,8 +26,8 @@
 #include <android/hardware/biometrics/fingerprint/2.3/IBiometricsFingerprint.h>
 #include <android/hardware/biometrics/fingerprint/2.1/types.h>
 
-#include <vendor/oneplus/fingerprint/extension/1.0/IVendorFingerprintExtensions.h>
-#include <vendor/oneplus/hardware/display/1.0/IOneplusDisplay.h>
+#include <vendor/oplus/fingerprint/extension/1.0/IVendorFingerprintExtensions.h>
+#include <vendor/oplus/hardware/display/1.0/IOneplusDisplay.h>
 
 namespace android {
 namespace hardware {
@@ -46,8 +46,8 @@ using ::android::hardware::Void;
 using ::android::hardware::hidl_vec;
 using ::android::hardware::hidl_string;
 using ::android::sp;
-using ::vendor::oneplus::fingerprint::extension::V1_0::IVendorFingerprintExtensions;
-using ::vendor::oneplus::hardware::display::V1_0::IOneplusDisplay;
+using ::vendor::oplus::fingerprint::extension::V1_0::IVendorFingerprintExtensions;
+using ::vendor::oplus::hardware::display::V1_0::IOneplusDisplay;
 
 struct BiometricsFingerprint : public IBiometricsFingerprint {
 public:

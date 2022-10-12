@@ -9,7 +9,7 @@
 set -e
 
 DEVICE=guacamole
-VENDOR=oneplus
+VENDOR=oplus
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

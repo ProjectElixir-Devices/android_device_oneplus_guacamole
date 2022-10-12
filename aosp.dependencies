@@ -5,6 +5,6 @@
   },
   {
     "repository": "android_vendor_oneplus_guacamole",
-    "target_path": "vendor/oneplus/guacamole"
+    "target_path": "vendor/oplus/guacamole"
   }
 ]

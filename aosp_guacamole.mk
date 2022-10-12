@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from guacamole device
-$(call inherit-product, device/oneplus/guacamole/device.mk)
+$(call inherit-product, device/oplus/guacamole/device.mk)
 
 # Inherit some common PixelPlusUI stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
@@ -21,12 +21,10 @@ $(call inherit-product-if-exists, vendor/oneplus/apps/apps-vendor.mk)
 PRODUCT_NAME := aosp_guacamole
 PRODUCT_DEVICE := guacamole
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus 7 Pro
+PRODUCT_MODEL := GM1911
 PRODUCT_MANUFACTURER := OnePlus
-
-PRODUCT_AAPT_CONFIG := xxxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
-PRODUCT_CHARACTERISTICS := nosdcard
+PRODUCT_SYSTEM_NAME := OnePlus7Pro
+PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 # Elixir Official Stuff
 EXTRA_UDFPS_ANIMATIONS := true
@@ -46,10 +44,8 @@ TARGET_SCREEN_WIDTH := 1440
 TARGET_BOOT_ANIMATION_RES := 1440
 
 # Build info
-BUILD_FINGERPRINT := "OnePlus/OnePlus7Pro/OnePlus7Pro:12/SKQ1.211113.001/P.202207121432:user/release-keys"
+BUILD_FINGERPRINT := "OnePlus/OnePlus7Pro/OnePlus7Pro:12/SKQ1.211113.001/P.202209220221:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlus7Pro-user 12 SKQ1.211113.001 P.202207121432 release-keys" \
+    PRIVATE_BUILD_DESC="OnePlus7Pro-user 12 SKQ1.211113.001 P.202209220221 release-keys" \
     PRODUCT_DEVICE=OnePlus7Pro \
     PRODUCT_NAME=guacamole
-
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus

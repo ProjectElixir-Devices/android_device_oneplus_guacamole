@@ -14,9 +14,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.lineage.touch@1.0-service.oneplus7pro",
-    init_rc: ["vendor.lineage.touch@1.0-service.oneplus7pro.rc"],
-    vintf_fragments: ["vendor.lineage.touch@1.0-service.oneplus7pro.xml"],
+    name: "vendor.lineage.touch@1.0-service.oplus",
+    init_rc: ["vendor.lineage.touch@1.0-service.oplus.rc"],
+    vintf_fragments: ["vendor.lineage.touch@1.0-service.oplus.xml"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     srcs: [
