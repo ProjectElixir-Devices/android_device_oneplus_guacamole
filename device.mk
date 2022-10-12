@@ -190,6 +190,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.oplus.rc \
+    init.oplus.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
@@ -259,6 +260,9 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1.vendor \
     android.hardware.gnss@2.1.vendor
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gps.conf:$(TARGET_COPY_OUT_ODM)/etc/gps.conf
+    
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
@@ -404,7 +408,11 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     als_correction_service.oplus \
     android.hardware.sensors@2.1-service.oplus \
-    libsensorndkbridge
+    libsensorndkbridge \
+    sensors.oplus
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # Servicetracker
 PRODUCT_PACKAGES += \
